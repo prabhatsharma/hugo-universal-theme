@@ -8,3 +8,21 @@
 .box-simple {
   min-height: 230px;
 }
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.role {
+  text-align: center;
+}
+
+.social-custom {
+  text-decoration: none !important;
+  font-size: 2.7rem;
+  line-height: 26px;
+  color: #999;
+  /* text-align: center; */
+  border-radius: 50%;
+  margin: 0;
+}

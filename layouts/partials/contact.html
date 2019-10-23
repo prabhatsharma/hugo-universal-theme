@@ -55,7 +55,7 @@
             {{ if isset .Site.Params "address" }}
             <section>
 
-              <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+              <h3> {{ i18n "contactAddrTitle" }}</h3>
 
                 {{ .Site.Params.address | safeHTML }}
 
@@ -69,4 +69,4 @@
     <!-- /.row -->
 </div>
 
-{{ partial "map.html" . }}
+<!-- {{ partial "map.html" . }} -->
